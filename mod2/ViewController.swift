@@ -11,18 +11,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var xTextField: UITextField!
     @IBOutlet weak var yTextField: UITextField!
     @IBOutlet weak var answer: UILabel!
-    
+//    var x : Int
+//    var y : Int
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
     @IBAction func pythButton(_ sender: Any) {
-        var x = xTextField.text
-        if let varx = Int(x){
-            
-        }else{
-            answer.text = "One or both of your values "
+      
         }
         
     }
@@ -31,5 +29,5 @@ class ViewController: UIViewController {
     
     
 
-}
+
 
