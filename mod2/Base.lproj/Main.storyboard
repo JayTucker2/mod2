@@ -65,11 +65,12 @@
                                 <rect key="frame" x="206" y="153" width="153" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                <state key="normal" title="Pythagorean Theorem">
+                                <state key="normal" title="Area of a Rectangle">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="pythButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MvP-Bg-mSQ"/>
+                                    <action selector="rectButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R7m-n7-n3W"/>
                                 </connections>
                             </button>
                         </subviews>
